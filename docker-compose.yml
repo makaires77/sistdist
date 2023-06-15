@@ -1,0 +1,59 @@
+version: '3'
+services:
+  nginx:
+    image: nginx:1.19.0
+    ports:
+      - 80:80
+    volumes:
+      - wordpress:/usr/share/nginx/html
+    depends_on:
+      - wordpress1
+      - wordpress2
+      - wordpress3
+
+  mysql:
+    image: mysql:5.7
+    environment:
+      MYSQL_ROOT_PASSWORD: r00t
+    volumes:
+      - db_data:/var/lib/mysql
+
+  wordpress1:
+    image: wordpress:5.4.2-php7.2-apache
+    depends_on:
+      - mysql
+    environment:
+      WORDPRESS_DB_HOST: mysql
+      WORDPRESS_DB_USER: root
+      WORDPRESS_DB_PASSWORD: r00t
+      WORDPRESS_DB_NAME: wordpress
+    volumes:
+      - wordpress:/var/www/html
+
+  wordpress2:
+    image: wordpress:5.4.2-php7.2-apache
+    depends_on:
+      - mysql
+    environment:
+      WORDPRESS_DB_HOST: mysql
+      WORDPRESS_DB_USER: root
+      WORDPRESS_DB_PASSWORD: r00t
+      WORDPRESS_DB_NAME: wordpress
+    volumes:
+      - wordpress:/var/www/html
+
+  wordpress3:
+    image: wordpress:5.4.2-php7.2-apache
+    depends_on:
+      - mysql
+    environment:
+      WORDPRESS_DB_HOST: mysql
+      WORDPRESS_DB_USER: root
+      WORDPRESS_DB_PASSWORD: r00t
+      WORDPRESS_DB_NAME: wordpress
+    volumes:
+      - wordpress:/var/www/html
+
+volumes:
+  db_data:
+  wordpress:

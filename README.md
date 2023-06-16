@@ -27,3 +27,25 @@ Exercícios em Sistemas Distribuídos
 
 Essa configuração do Docker Compose permite executar o Nginx como um balanceador de carga para as instâncias do WordPress. 
 O Nginx é acessível na porta 8080 do host, e as instâncias do WordPress se comunicam com o serviço MySQL para armazenar e recuperar dados.
+
+## Configuração do Nginx
+`nginx.conf`
+events {
+  worker_connections  1024;
+}
+
+http {
+  upstream wordpress {
+    server wordpress1:80;
+    server wordpress2:80;
+    server wordpress3:80;
+  }
+
+  server {
+    listen 80;
+
+    location / {
+      proxy_pass http://wordpress;
+    }
+  }
+}

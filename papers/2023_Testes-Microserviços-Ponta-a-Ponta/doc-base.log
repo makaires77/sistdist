@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.6.1)  17 JUN 2023 19:08
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.6.1)  17 JUN 2023 19:30
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**c:/Users/marco/sistdist/papers/2023_BenchmarksEnd-to-EndMicroservicesTesting/2023_BenchmarkinkTestingPontaPonta/doc-base.tex
-(c:/Users/marco/sistdist/papers/2023_BenchmarksEnd-to-EndMicroservicesTesting/2023_BenchmarkinkTestingPontaPonta/doc-base.tex
+**c:/Users/marco/sistdist/papers/2023_BenchmarksEnd-to-EndMicroservicesTesting/doc-base.tex
+(c:/Users/marco/sistdist/papers/2023_BenchmarksEnd-to-EndMicroservicesTesting/doc-base.tex
 LaTeX2e <2022-11-01> patch level 1
 L3 programming layer <2023-05-22> (./IEEEtran.cls
 Document Class: IEEEtran 2015/08/26 V1.8b by Michael Shell
@@ -879,95 +879,991 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 Package todonotes Warning: The length marginparwidth is less than 2cm and will most likely cause issues with the appearance of inserted todonotes. The issue can be solved by adding a line like \setlength {\marginparwidth }{2cm} prior to loading the todonotes package. on input line 118.
 
 Package hyperref Info: Link coloring OFF on input line 118.
-(./doc-base.out) (./doc-base.out)
 \@outlinefile=\write4
 \openout4 = `doc-base.out'.
 
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
- (c:/texlive/2023/texmf-dist/tex/latex/base/inputenc.sty
+(c:/texlive/2023/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2021/02/14 v1.3d Input encoding file
 \inpenc@prehook=\toks56
 \inpenc@posthook=\toks57
 )
-Underfull \hbox (badness 3128) in paragraph at lines 168--170
-[]\OT1/ptm/b/it/9 Abstract\OT1/ptm/b/n/9 ---Testing mi-croser-vice sys-tems in-volves a large
+Underfull \hbox (badness 2103) in paragraph at lines 168--170
+[]\OT1/ptm/b/it/9 Abstract\OT1/ptm/b/n/9 ---Testar sis-temas de microservi[]os en-volve uma
  []
 
-(./main-body.tex [1{c:/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/texlive/2023/texmf-dist/fonts/enc/dvips/base/8r.enc}
+
+Underfull \hbox (badness 3068) in paragraph at lines 172--174
+[]\OT1/ptm/b/it/9 Index Terms\OT1/ptm/b/n/9 ---Microservices, Teste de Carga, Teste de
+ []
+
+(./main-body.tex
+
+LaTeX Warning: Citation `lewis2014microservices' on page 1 undefined on input line 6.
+
+
+LaTeX Warning: Citation `cerny2018contextual' on page 1 undefined on input line 8.
+
+
+Underfull \hbox (badness 1694) in paragraph at lines 4--9
+[]\OT1/ptm/m/n/10 Os microsservi[]os s[]ao a abor-dagem prin-ci-pal para a
+ []
+
+[1{c:/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/texlive/2023/texmf-dist/fonts/enc/dvips/base/8r.enc}
 
 
 ]
-<img/trainticket-our.pdf, id=121, 752.8125pt x 498.86375pt>
+
+LaTeX Warning: Citation `jiang2008automatic' on page 2 undefined on input line 43.
+
+
+LaTeX Warning: Citation `jiang2015survey' on page 2 undefined on input line 45.
+
+
+LaTeX Warning: Citation `gatling' on page 2 undefined on input line 47.
+
+
+LaTeX Warning: Citation `trainticket' on page 2 undefined on input line 80.
+
+
+LaTeX Warning: Citation `eshop' on page 2 undefined on input line 80.
+
+
+Underfull \hbox (badness 4927) in paragraph at lines 80--81
+[]\OT1/ptm/m/n/10 Para demon-strar testes fun-cionais e de carga para
+ []
+
+
+LaTeX Warning: Reference `fig:train' on page 2 undefined on input line 85.
+
+
+./main-body.tex:89: LaTeX Error: Environment figura undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.89 \begin{figura}
+                   [h]
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+<img/trainticket-our.pdf, id=53, 752.8125pt x 498.86375pt>
 File: img/trainticket-our.pdf Graphic file (type pdf)
 <use img/trainticket-our.pdf>
-Package pdftex.def Info: img/trainticket-our.pdf  used on input line 93.
+Package pdftex.def Info: img/trainticket-our.pdf  used on input line 92.
 (pdftex.def)             Requested size: 257.04108pt x 170.33456pt.
 
+./main-body.tex:94: Package caption Error: \caption outside float.
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+See the caption package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.94         \caption
+                     {Arquitetura do Bilhete de Trem \cite{bilhete de trem}}
+If you do not understand this error, please take a closer look
+at the documentation of the `caption' package, especially the
+section about errors.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
-LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 102.
+
+./main-body.tex:97: LaTeX Error: \begin{document} ended by \end{figura}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.97 \end{figura}
+                 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (18.30087pt too wide) in paragraph at lines 89--98
+[]\OT1/ptm/m/n/10 [h]   []
+ []
+
+
+Underfull \hbox (badness 4403) in paragraph at lines 99--100
+[]\OT1/ptm/m/n/10 Os ca-sos de uso en-volvi-dos com este sis-tema de
+ []
+
+LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 101.
 (c:/texlive/2023/texmf-dist/tex/latex/psnfss/ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 )
-<img/eshop-architecture-2.png, id=130, 487.22025pt x 314.3745pt>
+
+LaTeX Warning: Citation `trainticket' on page 2 undefined on input line 105.
+
+
+LaTeX Warning: Citation `zhou2018benchmarking' on page 2 undefined on input line 105.
+
+
+LaTeX Warning: Citation `Bilhete de trem' on page 2 undefined on input line 107.
+
+[2 <./img/trainticket-our.pdf>]
+
+LaTeX Warning: Citation `eshop' on page 3 undefined on input line 111.
+
+
+LaTeX Warning: Reference `fig:eshop' on page 3 undefined on input line 113.
+
+
+LaTeX Warning: Citation `eshop' on page 3 undefined on input line 113.
+
+
+./main-body.tex:115: LaTeX Error: Environment figura undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.115 \begin{figura}
+                    [h]
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+<img/eshop-architecture-2.png, id=68, 487.22025pt x 314.3745pt>
 File: img/eshop-architecture-2.png Graphic file (type png)
 <use img/eshop-architecture-2.png>
-Package pdftex.def Info: img/eshop-architecture-2.png  used on input line 118.
+Package pdftex.def Info: img/eshop-architecture-2.png  used on input line 117.
 (pdftex.def)             Requested size: 252.0pt x 162.59782pt.
 
+./main-body.tex:119: Package caption Error: \caption outside float.
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+See the caption package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.119         \caption
+                      {arquitetura eShopOnContainers \cite{eshop}}
+If you do not understand this error, please take a closer look
+at the documentation of the `caption' package, especially the
+section about errors.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
-[2 <./img/trainticket-our.pdf>] [3 <./img/eshop-architecture-2.png>]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 197.
- (c:/texlive/2023/texmf-dist/tex/latex/amsfonts/umsa.fd
+
+./main-body.tex:122: LaTeX Error: \begin{document} ended by \end{figura}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.122 \end{figura}
+                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (23.95987pt too wide) in paragraph at lines 115--123
+[]\OT1/ptm/m/n/10 [h] []
+ []
+
+
+LaTeX Warning: Citation `eshop' on page 3 undefined on input line 126.
+
+
+Underfull \hbox (badness 3019) in paragraph at lines 126--127
+[]\OT1/ptm/m/n/10 Para nosso es-tudo de caso, us-amos a vers[]ao 5.0.0
+ []
+
+
+Underfull \hbox (badness 5592) in paragraph at lines 126--127
+\OT1/ptm/m/n/10 do microsservi[]o eS-ho-pOn-Con-tain-ers. Este sis-tema de
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \hbox (badness 1803) in paragraph at lines 140--141
+[]\OT1/ptm/m/n/10 O teste de fun-cional-i-dade con-sid-era o sis-tema como
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 149--150
+[]\OT1/ptm/m/n/10 Como men-cionado an-te-ri-or-mente, os sis-temas de
+ []
+
+
+Underfull \hbox (badness 2680) in paragraph at lines 149--150
+\OT1/ptm/m/n/10 que os v[]arios microsservi[]os rea-jam bem a difer-entes
+ []
+
+
+LaTeX Warning: Citation `zenodo_benchmark' on page 3 undefined on input line 163.
+
+[3 <./img/eshop-architecture-2.png>]
+
+LaTeX Warning: Citation `katalon' on page 4 undefined on input line 166.
+
+
+LaTeX Warning: Citation `html_unit' on page 4 undefined on input line 168.
+
+
+LaTeX Warning: Citation `testng' on page 4 undefined on input line 170.
+
+
+LaTeX Warning: Reference `tab:selenium-test-count ' on page 4 undefined on input line 179.
+
+
+./main-body.tex:181: LaTeX Error: Environment tabela undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.181 \begin{tabela}
+                    [h]
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+LaTeX Font Info:    Trying to load font information for U+msa on input line 183.
+(c:/texlive/2023/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 197.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 183.
  (c:/texlive/2023/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Overfull \hbox (0.82202pt too wide) in paragraph at lines 197--210
- [][] 
+
+./main-body.tex:196: Package caption Error: \caption outside float.
+
+See the caption package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.196     \caption
+                  {N√∫mero de testes de Selenium por Suite\\Use Case Benchmark}
+If you do not understand this error, please take a closer look
+at the documentation of the `caption' package, especially the
+section about errors.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+./main-body.tex:198: Undefined control sequence.
+l.198 \mesa
+            final}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./main-body.tex:198: Extra }, or forgotten \endgroup.
+l.198 \mesa final}
+                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+Overfull \hbox (0.82202pt too wide) in paragraph at lines 181--199
+ [] 
  []
 
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+./main-body.tex:204: LaTeX Error: Environment coment√°rio undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.204 \begin{coment√°rio}
+                         
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
 
 
-Overfull \hbox (0.822pt too wide) in paragraph at lines 297--332
- [][] 
+./main-body.tex:205: LaTeX Error: Environment tabela undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.205  \begin{tabela}
+                     [h]
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./main-body.tex:226: Package caption Error: \caption outside float.
+
+See the caption package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.226     \caption
+                  {Nome dos testes TrainTicket Selenium\\Use Case Benchmark}
+If you do not understand this error, please take a closer look
+at the documentation of the `caption' package, especially the
+section about errors.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+./main-body.tex:228: Undefined control sequence.
+l.228 \mesa
+            final}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./main-body.tex:228: Extra }, or forgotten \endgroup.
+l.228 \mesa final}
+                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+./main-body.tex:229: LaTeX Error: \begin{document} ended by \end{coment√°rio}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.229 \end{coment√°rio}
+                       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+./main-body.tex:231: Missing $ inserted.
+<inserted text> 
+                $
+l.231 \in
+         √≠cio{tabela}[h]
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+LaTeX Warning: Command \' invalid in math mode on input line 231.
+
+./main-body.tex:231: Please use \mathaccent for accents in math mode.
+\add@accent ... \let \ignorespaces \relax \accent 
+                                                  #1 #2\egroup \ifmmode \els...
+l.231 \in√≠
+           cio{tabela}[h]
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+./main-body.tex:231: Missing { inserted.
+<to be read again> 
+                   \begingroup 
+l.231 \in√≠
+           cio{tabela}[h]
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+
+LaTeX Warning: Command \i invalid in math mode on input line 231.
+
+
+Overfull \hbox (12.10695pt too wide) in paragraph at lines 235--235
+ []|\OT1/ptm/b/n/10 Conjunto 
  []
 
-[4]
-LaTeX Font Info:    Trying to load font information for TS1+pcr on input line 365.
+
+Overfull \hbox (10.644pt too wide) in paragraph at lines 237--237
+ []|[]| 
+ []
+
+
+Overfull \hbox (10.64389pt too wide) in paragraph at lines 245--245
+ []|[]| 
+ []
+
+
+Overfull \hbox (39.53375pt too wide) in paragraph at lines 252--252
+ []|[]| 
+ []
+
+
+Overfull \hbox (29.87654pt too wide) in paragraph at lines 263--264
+ []|\OT1/ptm/m/n/10 Administrador 
+ []
+
+
+Overfull \hbox (9.86667pt too wide) in paragraph at lines 263--264
+ \OT1/ptm/m/n/10 cionar/at- 
+ []
+
+
+Overfull \hbox (9.15671pt too wide) in paragraph at lines 263--264
+ \OT1/ptm/m/n/10 alizar/ex- 
+ []
+
+
+./main-body.tex:274: Package caption Error: \caption outside float.
+
+See the caption package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.274 \caption
+              {Nome dos testes TrainTicket Selenium\\Use Case Benchmark}
+If you do not understand this error, please take a closer look
+at the documentation of the `caption' package, especially the
+section about errors.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+./main-body.tex:276: Undefined control sequence.
+l.276 \vespa
+            √ßo{-1em}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Command \c invalid in math mode on input line 276.
+
+./main-body.tex:277: Undefined control sequence.
+l.277 \mesa
+            final}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./main-body.tex:278: Missing $ inserted.
+<inserted text> 
+                $
+l.278 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (111.40945pt too wide) in paragraph at lines 231--278
+ []$ 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [4]
+
+./main-body.tex:281: LaTeX Error: Environment tabela undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.281 \begin{tabela}
+                    [!t]
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (13.0678pt too wide) in paragraph at lines 300--301
+ []|[] 
+ []
+
+
+Overfull \hbox (5.53685pt too wide) in paragraph at lines 304--305
+ []|[] 
+ []
+
+
+Overfull \hbox (5.12727pt too wide) in paragraph at lines 309--310
+ []|[] 
+ []
+
+
+./main-body.tex:318: Package caption Error: \caption outside float.
+
+See the caption package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.318 \caption
+              {Nome do eShopOnContainers Selenium Tests\\Use Case Benchmark}
+If you do not understand this error, please take a closer look
+at the documentation of the `caption' package, especially the
+section about errors.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+./main-body.tex:320: Undefined control sequence.
+l.320 \vespa
+            √ßo{-2em}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./main-body.tex:321: Undefined control sequence.
+l.321 \mesa
+            final}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./main-body.tex:321: Extra }, or forgotten \endgroup.
+l.321 \mesa final}
+                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+Overfull \hbox (0.822pt too wide) in paragraph at lines 281--322
+ [] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+LaTeX Warning: Reference `tab:selenium-trainticket-test-name-new' on page 5 undefined on input line 325.
+
+
+LaTeX Warning: Reference `tab:selenium-eshoponcontainers-test-name-new' on page 5 undefined on input line 325.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 331--331
+|[]\OT1/ptm/m/it/10 Teste de Carga|
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [5]
+Underfull \hbox (badness 10000) in paragraph at lines 339--339
+|[]\OT1/ptm/m/it/10 Desenho do Es-tudo|
+ []
+
+
+LaTeX Warning: Citation `zenodo_benchmark' on page 6 undefined on input line 341.
+
+
+LaTeX Warning: Citation `zenodo_benchmark' on page 6 undefined on input line 345.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 347--347
+|[]\OT1/ptm/m/it/10 Procedimento do Es-tudo / En-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 347--347
+\OT1/ptm/m/it/10 frentando as Ar-madil-has Ini-ci-ais|
+ []
+
+
+Underfull \vbox (badness 1701) has occurred while \output is active []
+
+LaTeX Font Info:    Trying to load font information for TS1+pcr on input line 351.
  (c:/texlive/2023/texmf-dist/tex/latex/psnfss/ts1pcr.fd
 File: ts1pcr.fd 2001/06/04 font definitions for TS1/pcr.
 )
-LaTeX Font Info:    Trying to load font information for OMS+pcr on input line 365.
+LaTeX Font Info:    Trying to load font information for OMS+pcr on input line 351.
  (c:/texlive/2023/texmf-dist/tex/latex/psnfss/omspcr.fd
 File: omspcr.fd 
 )
 LaTeX Font Info:    Font shape `OMS/pcr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 365.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 351.
 
-Underfull \hbox (badness 10000) in paragraph at lines 369--370
-[]\OT1/ptm/m/n/10 The \OT1/pcr/m/n/10 formparam \OT1/ptm/m/n/10 func-tion is used for each
+
+./main-body.tex:358: LaTeX Error: Invalid UTF-8 byte sequence (√\lst@ECß).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.358 // Exemplo de uso da fun√ß√£o 
+                                    RawFileBody()
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+./main-body.tex:358: LaTeX Error: Invalid UTF-8 byte sequence (√\lst@EC£).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.358 // Exemplo de uso da fun√ß√£o 
+                                    RawFileBody()
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+./main-body.tex:359: LaTeX Error: Invalid UTF-8 byte sequence (√\lst@ECß).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.359 .exec(http("Exemplo de solicita√ß√£o 
+                                           de postagem para login")
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+./main-body.tex:359: LaTeX Error: Invalid UTF-8 byte sequence (√\lst@EC£).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.359 .exec(http("Exemplo de solicita√ß√£o 
+                                           de postagem para login")
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+./main-body.tex:363: LaTeX Error: Invalid UTF-8 byte sequence (√\lst@ECß).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.363      .cabe√ßalhos(
+                        ...))
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+[6]
+
+./main-body.tex:369: LaTeX Error: Invalid UTF-8 byte sequence (√\lst@ECß).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.369 // Exemplo de uso da fun√ß√£o 
+                                    formparam
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+./main-body.tex:369: LaTeX Error: Invalid UTF-8 byte sequence (√\lst@EC£).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.369 // Exemplo de uso da fun√ß√£o 
+                                    formparam
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+./main-body.tex:370: LaTeX Error: Invalid UTF-8 byte sequence (√\lst@ECß).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.370 .exec(http("Exemplo de solicita√ß√£o 
+                                           de postagem para login")
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+./main-body.tex:370: LaTeX Error: Invalid UTF-8 byte sequence (√\lst@EC£).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.370 .exec(http("Exemplo de solicita√ß√£o 
+                                           de postagem para login")
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+./main-body.tex:373: LaTeX Error: Invalid UTF-8 byte sequence (√\lst@ECß).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.373      .cabe√ßalhos(
+                        ...))
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 376--376
+|[]\OT1/ptm/m/it/10 Resultados do Es-tudo|
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 369--370
-\OT1/ptm/m/n/10 pa-ram-e-ter needed for the form. The for-mat is
+LaTeX Warning: Reference `tab:train_booking' on page 7 undefined on input line 382.
+
+
+LaTeX Warning: Reference `tab:eshop-checkout' on page 7 undefined on input line 382.
+
+
+LaTeX Warning: Reference `sec:proposed' on page 7 undefined on input line 382.
+
+
+LaTeX Warning: Reference `tab:train_booking' on page 7 undefined on input line 384.
+
+
+LaTeX Warning: Reference `sec:proposed' on page 7 undefined on input line 386.
+
+
+./main-body.tex:388: LaTeX Error: Environment tabela undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.388 \begin{tabela}
+                    [h]
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (13.0306pt too wide) in paragraph at lines 392--393
+ []|\OT1/ptm/b/n/10 Porcentagem 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 369--370
-\OT1/pcr/m/n/10 .formparam(parameterName, parameterValue)\OT1/ptm/m/n/10 .
+./main-body.tex:401: Package caption Error: \caption outside float.
+
+See the caption package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.401     \caption
+                  {T√≠quete de Reserva de Bilhete de Trem\\ Benchmark de Cas...
+If you do not understand this error, please take a closer look
+at the documentation of the `caption' package, especially the
+section about errors.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+./main-body.tex:403: Undefined control sequence.
+l.403     \vespa
+                √ßo{-1em}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./main-body.tex:404: Undefined control sequence.
+l.404 \mesa
+            final}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./main-body.tex:404: Extra }, or forgotten \endgroup.
+l.404 \mesa final}
+                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+LaTeX Warning: Reference `tab:eshop-checkout' on page 7 undefined on input line 408.
+
+
+LaTeX Warning: Reference `tab:train_booking' on page 7 undefined on input line 408.
+
+
+./main-body.tex:412: LaTeX Error: Environment tabela undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.412 \begin{tabela}
+                    [h]
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (13.0306pt too wide) in paragraph at lines 416--417
+ []|\OT1/ptm/b/n/10 Porcentagem 
  []
 
-[5] [6]) (./doc-base.bbl
+
+./main-body.tex:425: Package caption Error: \caption outside float.
+
+See the caption package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.425     \caption
+                  {eShopOnContainers Checkout\\ Use Case Benchmark}
+If you do not understand this error, please take a closer look
+at the documentation of the `caption' package, especially the
+section about errors.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+./main-body.tex:427: Undefined control sequence.
+l.427     \vespa
+                √ßo{-1em}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./main-body.tex:428: Undefined control sequence.
+l.428 \mesa
+            final}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./main-body.tex:428: Extra }, or forgotten \endgroup.
+l.428 \mesa final}
+                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+[7]
+
+LaTeX Warning: Citation `benchmark_info' on page 8 undefined on input line 466.
+
+
+./main-body.tex:467: LaTeX Error: Environment itemizar undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.467 \begin{itemizar}
+                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./main-body.tex:468: LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.468      \item 1
+                  . ] \textit{Especifica√ß√µes de Carga de Trabalho}: Esta √...
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./main-body.tex:470: LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.470      \item[2. ]
+                      \textit{Especifica√ß√µes de m√©tricas}: Este component...
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./main-body.tex:472: LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.472      \item[3. ]
+                      \textit{Especifica√ß√µes de medi√ß√£o}: O √∫ltimo comp...
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./main-body.tex:474: LaTeX Error: \begin{document} ended by \end{itemizar}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.474 \end{itemizar}
+                    
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+LaTeX Warning: Citation `hamilton2023response' on page 8 undefined on input line 480.
+
+[8]
+
+LaTeX Warning: Citation `zenodo_benchmark' on page 9 undefined on input line 490.
+
+) (./doc-base.bbl
 Underfull \hbox (badness 3386) in paragraph at lines 64--66
 \OT1/ptm/m/n/8 [On-line]. Avail-able: []$https : / / katalon . com / resources-[]center / blog /
  []
@@ -984,23 +1880,55 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[7] (./doc-base.aux)
-Package rerunfilecheck Info: File `doc-base.out' has not changed.
-(rerunfilecheck)             Checksum: 9ADD8DBAA008E83A85A8075400611911;2326.
- ) 
+- LAST -
+Extra skip:0.0pt
+Left:465.89993pt/2.16492pt
+Right:465.6559pt/1.73193pt
+Split: 465.77791pt
+Output:465.77791pt
+Pageshrink: 1.0pt
+Pagestretch: 6.0pt
+@colht:672.0pt
+FLUSHEND [output]: 465.77791pt
+FLUSHEND [leftcolumn badness]: 0
+FUSHEND [rightcolumn badness]: 0
+[9] (./doc-base.aux)
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package rerunfilecheck Warning: File `doc-base.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `doc-base.out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  46B1FE5789AE27A59370BCBFB574E6A7;2767.
+ )
+(\end occurred inside a group at level 5)
+
+### semi simple group (level 5) entered at line 412 (\begingroup)
+### semi simple group (level 4) entered at line 388 (\begingroup)
+### semi simple group (level 3) entered at line 281 (\begingroup)
+### semi simple group (level 2) entered at line 204 (\begingroup)
+### semi simple group (level 1) entered at line 181 (\begingroup)
+### bottom level 
 Here is how much of TeX's memory you used:
- 32196 strings out of 476037
- 639255 string characters out of 5794147
- 1897779 words of memory out of 5000000
- 52008 multiletter control sequences out of 15000+600000
- 552223 words of font info for 111 fonts, out of 8000000 for 9000
+ 32189 strings out of 476037
+ 638900 string characters out of 5794147
+ 1893779 words of memory out of 5000000
+ 52011 multiletter control sequences out of 15000+600000
+ 552170 words of font info for 115 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 103i,11n,117p,1249b,1253s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb><c:/texlive/2023/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2023/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb><c:/texlive/2023/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/2023/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on doc-base.pdf (7 pages, 266525 bytes).
+ 103i,14n,117p,1289b,1403s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb><c:/texlive/2023/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb><c:/texlive/2023/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2023/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb><c:/texlive/2023/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/2023/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on doc-base.pdf (9 pages, 310669 bytes).
 PDF statistics:
- 282 PDF objects out of 1000 (max. 8388607)
- 226 compressed objects within 3 object streams
- 56 named destinations out of 1000 (max. 500000)
- 287 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 217 PDF objects out of 1000 (max. 8388607)
+ 154 compressed objects within 2 object streams
+ 51 named destinations out of 1000 (max. 500000)
+ 167 words of extra memory for PDF output out of 10000 (max. 10000000)
 

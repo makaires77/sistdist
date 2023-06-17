@@ -1,8 +1,8 @@
-PWD c:/Users/marco/sistdist/papers/2023_BenchmarksEnd-to-EndMicroservicesTesting
+PWD c:/Users/marco/sistdist/papers/2023_Testes-Microserviços-Ponta-a-Ponta
 INPUT c:/texlive/2023/texmf.cnf
 INPUT c:/texlive/2023/texmf-dist/web2c/texmf.cnf
 INPUT c:/texlive/2023/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT c:/Users/marco/sistdist/papers/2023_BenchmarksEnd-to-EndMicroservicesTesting/doc-base.tex
+INPUT c:/Users/marco/sistdist/papers/2023_Testes-Microserviços-Ponta-a-Ponta/doc-base.tex
 OUTPUT doc-base.log
 INPUT ./IEEEtran.cls
 INPUT IEEEtran.cls

@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.6.1)  17 JUN 2023 19:30
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.6.1)  17 JUN 2023 19:35
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**c:/Users/marco/sistdist/papers/2023_BenchmarksEnd-to-EndMicroservicesTesting/doc-base.tex
-(c:/Users/marco/sistdist/papers/2023_BenchmarksEnd-to-EndMicroservicesTesting/doc-base.tex
+**c:/Users/marco/sistdist/papers/2023_Testes-Microserviços-Ponta-a-Ponta/doc-base.tex
+(c:/Users/marco/sistdist/papers/2023_Testes-Microserviços-Ponta-a-Ponta/doc-base.tex
 LaTeX2e <2022-11-01> patch level 1
 L3 programming layer <2023-05-22> (./IEEEtran.cls
 Document Class: IEEEtran 2015/08/26 V1.8b by Michael Shell
@@ -910,7 +910,10 @@ Underfull \hbox (badness 1694) in paragraph at lines 4--9
 []\OT1/ptm/m/n/10 Os microsservi[]os s[]ao a abor-dagem prin-ci-pal para a
  []
 
-[1{c:/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/texlive/2023/texmf-dist/fonts/enc/dvips/base/8r.enc}
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [1{c:/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/texlive/2023/texmf-dist/fonts/enc/dvips/base/8r.enc}
 
 
 ]
@@ -950,7 +953,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-<img/trainticket-our.pdf, id=53, 752.8125pt x 498.86375pt>
+<img/trainticket-our.pdf, id=54, 752.8125pt x 498.86375pt>
 File: img/trainticket-our.pdf Graphic file (type pdf)
 <use img/trainticket-our.pdf>
 Package pdftex.def Info: img/trainticket-our.pdf  used on input line 92.
@@ -1079,9 +1082,6 @@ Underfull \hbox (badness 3019) in paragraph at lines 126--127
 Underfull \hbox (badness 5592) in paragraph at lines 126--127
 \OT1/ptm/m/n/10 do microsservi[]o eS-ho-pOn-Con-tain-ers. Este sis-tema de
  []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \hbox (badness 1803) in paragraph at lines 140--141
@@ -1918,14 +1918,14 @@ Package rerunfilecheck Info: Checksums for `doc-base.out':
 ### bottom level 
 Here is how much of TeX's memory you used:
  32189 strings out of 476037
- 638900 string characters out of 5794147
+ 638885 string characters out of 5794147
  1893779 words of memory out of 5000000
  52011 multiletter control sequences out of 15000+600000
  552170 words of font info for 115 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 103i,14n,117p,1289b,1403s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 103i,14n,117p,1284b,1403s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb><c:/texlive/2023/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb><c:/texlive/2023/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2023/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb><c:/texlive/2023/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/2023/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on doc-base.pdf (9 pages, 310669 bytes).
+Output written on doc-base.pdf (9 pages, 310678 bytes).
 PDF statistics:
  217 PDF objects out of 1000 (max. 8388607)
  154 compressed objects within 2 object streams

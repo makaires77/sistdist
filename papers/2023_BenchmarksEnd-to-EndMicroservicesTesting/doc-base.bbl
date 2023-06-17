@@ -7,8 +7,7 @@
 \providecommand{\BIBentrySTDinterwordspacing}{\spaceskip=0pt\relax}
 \providecommand{\BIBentryALTinterwordstretchfactor}{4}
 \providecommand{\BIBentryALTinterwordspacing}{\spaceskip=\fontdimen2\font plus
-\BIBentryALTinterwordstretchfactor\fontdimen3\font minus
-  \fontdimen4\font\relax}
+\BIBentryALTinterwordstretchfactor\fontdimen3\font minus \fontdimen4\font\relax}
 \providecommand{\BIBforeignlanguage}[2]{{%
 \expandafter\ifx\csname l@#1\endcsname\relax
 \typeout{** WARNING: IEEEtran.bst: No hyphenation pattern has been}%
@@ -23,71 +22,51 @@
 
 \bibitem{lewis2014microservices}
 \BIBentryALTinterwordspacing
-J.~Lewis and M.~Fowler, ``Microservices,'' 2014. [Online]. Available:
-  \url{https://martinfowler.com/articles/microservices.html}
+J.~Lewis and M.~Fowler, ``Microservices,'' 2014. [Online]. Available: \url{https://martinfowler.com/articles/microservices.html}
 \BIBentrySTDinterwordspacing
 
 \bibitem{cerny2018contextual}
-T.~Cerny, M.~J. Donahoo, and M.~Trnka, ``Contextual understanding of
-  microservice architecture: current and future directions,'' \emph{ACM SIGAPP
-  Applied Computing Review}, vol.~17, no.~4, pp. 29--45, 2018.
+T.~Cerny, M.~J. Donahoo, and M.~Trnka, ``Contextual understanding of microservice architecture: current and future directions,'' \emph{ACM SIGAPP Applied Computing Review}, vol.~17, no.~4, pp. 29--45, 2018.
 
 \bibitem{jiang2008automatic}
-Z.~M. Jiang, A.~E. Hassan, G.~Hamann, and P.~Flora, ``Automatic identification
-  of load testing problems,'' in \emph{2008 IEEE International Conference on
-  Software Maintenance}, 2008, pp. 307--316.
+Z.~M. Jiang, A.~E. Hassan, G.~Hamann, and P.~Flora, ``Automatic identification of load testing problems,'' in \emph{2008 IEEE International Conference on Software Maintenance}, 2008, pp. 307--316.
 
 \bibitem{jiang2015survey}
-Z.~M. Jiang and A.~E. Hassan, ``A survey on load testing of large-scale
-  software systems,'' \emph{IEEE Transactions on Software Engineering},
-  vol.~41, no.~11, pp. 1091--1118, 2015.
+Z.~M. Jiang and A.~E. Hassan, ``A survey on load testing of large-scale software systems,'' \emph{IEEE Transactions on Software Engineering}, vol.~41, no.~11, pp. 1091--1118, 2015.
 
 \bibitem{gatling}
 \BIBentryALTinterwordspacing
-Gatling, ``Gatling,'' 2023. [Online]. Available:
-  \url{https://gatling.io/docs/gatling/reference/current/}
+Gatling, ``Gatling,'' 2023. [Online]. Available: \url{https://gatling.io/docs/gatling/reference/current/}
 \BIBentrySTDinterwordspacing
 
 \bibitem{trainticket}
 \BIBentryALTinterwordspacing
-FudanSELab, ``Train-ticket,'' 2022. [Online]. Available:
-  \url{https://github.com/FudanSELab/train-ticket}
+FudanSELab, ``Train-ticket,'' 2022. [Online]. Available: \url{https://github.com/FudanSELab/train-ticket}
 \BIBentrySTDinterwordspacing
 
 \bibitem{eshop}
 \BIBentryALTinterwordspacing
-N.~Application, ``eshoponcontainers,'' 2023. [Online]. Available:
-  \url{https://github.com/dotnet-architecture/eShopOnContainers}
+N.~Application, ``eshoponcontainers,'' 2023. [Online]. Available: \url{https://github.com/dotnet-architecture/eShopOnContainers}
 \BIBentrySTDinterwordspacing
 
 \bibitem{zhou2018benchmarking}
 \BIBentryALTinterwordspacing
-X.~Zhou, X.~Peng, T.~Xie, J.~Sun, C.~Xu, C.~Ji, and W.~Zhao, ``Benchmarking
-  microservice systems for software engineering research,'' in
-  \emph{Proceedings of the 40th International Conference on Software
-  Engineering: Companion Proceeedings, {ICSE} 2018, Gothenburg, Sweden, May 27
-  - June 03, 2018}, M.~Chaudron, I.~Crnkovic, M.~Chechik, and M.~Harman,
-  Eds.\hskip 1em plus 0.5em minus 0.4em\relax {ACM}, 2018, pp. 323--324.
-  [Online]. Available: \url{https://doi.org/10.1145/3183440.3194991}
+X.~Zhou, X.~Peng, T.~Xie, J.~Sun, C.~Xu, C.~Ji, and W.~Zhao, ``Benchmarking microservice systems for software engineering research,'' in \emph{Proceedings of the 40th International Conference on Software Engineering: Companion Proceeedings, {ICSE} 2018, Gothenburg, Sweden, May 27 - June 03, 2018}, M.~Chaudron, I.~Crnkovic, M.~Chechik, and M.~Harman, Eds.\hskip 1em plus 0.5em minus 0.4em\relax {ACM}, 2018, pp. 323--324. [Online]. Available: \url{https://doi.org/10.1145/3183440.3194991}
 \BIBentrySTDinterwordspacing
 
 \bibitem{zenodo_benchmark}
 \BIBentryALTinterwordspacing
-S.~Smith, E.~Robinson, T.~Frederiksen, and T.~Stevens, ``Case study of test
-  benchmark for microservices: Train-ticket and eshoponcontainers,'' 2023.
-  [Online]. Available: \url{https://doi.org/10.5281/zenodo.7877723}
+S.~Smith, E.~Robinson, T.~Frederiksen, and T.~Stevens, ``Case study of test benchmark for microservices: Train-ticket and eshoponcontainers,'' 2023. [Online]. Available: \url{https://doi.org/10.5281/zenodo.7877723}
 \BIBentrySTDinterwordspacing
 
 \bibitem{katalon}
 \BIBentryALTinterwordspacing
-Katalon, ``Katalon automation recorder quickstart,'' 2023. [Online]. Available:
-  \url{https://katalon.com/resources-center/blog/katalon-automation-recorder}
+Katalon, ``Katalon automation recorder quickstart,'' 2023. [Online]. Available: \url{https://katalon.com/resources-center/blog/katalon-automation-recorder}
 \BIBentrySTDinterwordspacing
 
 \bibitem{html_unit}
 \BIBentryALTinterwordspacing
-G.~S. Inc, ``Htmlunit,'' 2023. [Online]. Available:
-  \url{https://htmlunit.sourceforge.io/}
+G.~S. Inc, ``Htmlunit,'' 2023. [Online]. Available: \url{https://htmlunit.sourceforge.io/}
 \BIBentrySTDinterwordspacing
 
 \bibitem{testng}
@@ -97,14 +76,12 @@ C.~Beust, ``Testng,'' 2022. [Online]. Available: \url{https://testng.org/doc/}
 
 \bibitem{benchmark_info}
 \BIBentryALTinterwordspacing
-T.~Hamilton, ``What is benchmark testing?'' [Online]. Available:
-  \url{https://www.guru99.com/benchmark-testing.html}
+T.~Hamilton, ``What is benchmark testing?'' [Online]. Available: \url{https://www.guru99.com/benchmark-testing.html}
 \BIBentrySTDinterwordspacing
 
 \bibitem{hamilton2023response}
 \BIBentryALTinterwordspacing
-------, ``Response time testing - how to measure for api?'' 2023. [Online].
-  Available: \url{https://www.guru99.com/response-time-testing.html}
+------, ``Response time testing - how to measure for api?'' 2023. [Online]. Available: \url{https://www.guru99.com/response-time-testing.html}
 \BIBentrySTDinterwordspacing
 
 \end{thebibliography}

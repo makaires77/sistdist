@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.6.1)  17 JUN 2023 19:28
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.6.1)  17 JUN 2023 21:38
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**c:/Users/marco/sistdist/papers/2023_TestesMicroserviçosPontaPonta/doc-base.tex
-(c:/Users/marco/sistdist/papers/2023_TestesMicroserviçosPontaPonta/doc-base.tex
+**c:/Users/marco/sistdist/papers/2023_BenchmarksEnd-to-EndMicroservicesTesting/doc-base.tex
+(c:/Users/marco/sistdist/papers/2023_BenchmarksEnd-to-EndMicroservicesTesting/doc-base.tex
 LaTeX2e <2022-11-01> patch level 1
 L3 programming layer <2023-05-22> (./IEEEtran.cls
 Document Class: IEEEtran 2015/08/26 V1.8b by Michael Shell
@@ -901,35 +901,35 @@ Underfull \hbox (badness 3128) in paragraph at lines 168--170
 <img/trainticket-our.pdf, id=121, 752.8125pt x 498.86375pt>
 File: img/trainticket-our.pdf Graphic file (type pdf)
 <use img/trainticket-our.pdf>
-Package pdftex.def Info: img/trainticket-our.pdf  used on input line 93.
+Package pdftex.def Info: img/trainticket-our.pdf  used on input line 89.
 (pdftex.def)             Requested size: 257.04108pt x 170.33456pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 102.
+LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 98.
 (c:/texlive/2023/texmf-dist/tex/latex/psnfss/ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 )
 <img/eshop-architecture-2.png, id=130, 487.22025pt x 314.3745pt>
 File: img/eshop-architecture-2.png Graphic file (type png)
 <use img/eshop-architecture-2.png>
-Package pdftex.def Info: img/eshop-architecture-2.png  used on input line 118.
+Package pdftex.def Info: img/eshop-architecture-2.png  used on input line 114.
 (pdftex.def)             Requested size: 252.0pt x 162.59782pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [2 <./img/trainticket-our.pdf>] [3 <./img/eshop-architecture-2.png>]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 197.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 193.
  (c:/texlive/2023/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 197.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 193.
  (c:/texlive/2023/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Overfull \hbox (0.82202pt too wide) in paragraph at lines 197--210
+Overfull \hbox (0.82202pt too wide) in paragraph at lines 193--206
  [][] 
  []
 
@@ -937,33 +937,33 @@ Overfull \hbox (0.82202pt too wide) in paragraph at lines 197--210
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Overfull \hbox (0.822pt too wide) in paragraph at lines 297--332
+Overfull \hbox (0.822pt too wide) in paragraph at lines 293--328
  [][] 
  []
 
 [4]
-LaTeX Font Info:    Trying to load font information for TS1+pcr on input line 365.
+LaTeX Font Info:    Trying to load font information for TS1+pcr on input line 361.
  (c:/texlive/2023/texmf-dist/tex/latex/psnfss/ts1pcr.fd
 File: ts1pcr.fd 2001/06/04 font definitions for TS1/pcr.
 )
-LaTeX Font Info:    Trying to load font information for OMS+pcr on input line 365.
+LaTeX Font Info:    Trying to load font information for OMS+pcr on input line 361.
  (c:/texlive/2023/texmf-dist/tex/latex/psnfss/omspcr.fd
 File: omspcr.fd 
 )
 LaTeX Font Info:    Font shape `OMS/pcr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 365.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 361.
 
-Underfull \hbox (badness 10000) in paragraph at lines 369--370
+Underfull \hbox (badness 10000) in paragraph at lines 365--366
 []\OT1/ptm/m/n/10 The \OT1/pcr/m/n/10 formparam \OT1/ptm/m/n/10 func-tion is used for each
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 369--370
+Underfull \hbox (badness 10000) in paragraph at lines 365--366
 \OT1/ptm/m/n/10 pa-ram-e-ter needed for the form. The for-mat is
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 369--370
+Underfull \hbox (badness 10000) in paragraph at lines 365--366
 \OT1/pcr/m/n/10 .formparam(parameterName, parameterValue)\OT1/ptm/m/n/10 .
  []
 
@@ -990,12 +990,12 @@ Package rerunfilecheck Info: File `doc-base.out' has not changed.
  ) 
 Here is how much of TeX's memory you used:
  32196 strings out of 476037
- 639120 string characters out of 5794147
+ 639150 string characters out of 5794147
  1897779 words of memory out of 5000000
  52008 multiletter control sequences out of 15000+600000
  552223 words of font info for 111 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 103i,11n,117p,1204b,1253s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 103i,11n,117p,1214b,1253s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb><c:/texlive/2023/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2023/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb><c:/texlive/2023/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/2023/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
 Output written on doc-base.pdf (7 pages, 266525 bytes).
 PDF statistics:

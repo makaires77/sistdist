@@ -7,15 +7,15 @@ class UserBehavior(TaskSet):
 
     @task
     def blog_post_with_large_image(self):
-        self.client.get("/?p=20")
+        self.client.get("/2023/06/17/raios-x-do-chandra-e-dados-infravermelhos-do-james-webb-combinados/")
 
     @task
     def blog_post_with_text(self):
-        self.client.get("/?page_id=2")
+        self.client.get("/2023/06/15/detector-nircam/")
 
     @task
     def blog_post_with_small_image(self):
-        self.client.get("/?p=13")
+        self.client.get("/2023/06/17/james-webb/")
 
 class WebsiteUser(HttpUser):
     tasks = [UserBehavior]

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.6.1)  17 JUN 2023 19:38
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.6.1)  20 JUN 2023 17:51
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1906,7 +1906,7 @@ Package rerunfilecheck Warning: File `doc-base.out' has changed.
 
 Package rerunfilecheck Info: Checksums for `doc-base.out':
 (rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  46B1FE5789AE27A59370BCBFB574E6A7;2767.
+(rerunfilecheck)             After:  546BF6C95CD3E5AF5CAA3736B683B616;2792.
  )
 (\end occurred inside a group at level 5)
 
@@ -1919,13 +1919,13 @@ Package rerunfilecheck Info: Checksums for `doc-base.out':
 Here is how much of TeX's memory you used:
  32189 strings out of 476037
  638885 string characters out of 5794147
- 1893779 words of memory out of 5000000
+ 1894779 words of memory out of 5000000
  52011 multiletter control sequences out of 15000+600000
  552170 words of font info for 115 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  103i,14n,117p,1284b,1403s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb><c:/texlive/2023/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb><c:/texlive/2023/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2023/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb><c:/texlive/2023/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/2023/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on doc-base.pdf (9 pages, 310678 bytes).
+Output written on doc-base.pdf (9 pages, 310693 bytes).
 PDF statistics:
  217 PDF objects out of 1000 (max. 8388607)
  154 compressed objects within 2 object streams

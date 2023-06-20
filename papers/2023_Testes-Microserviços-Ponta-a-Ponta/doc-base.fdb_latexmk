@@ -2,12 +2,12 @@
 ["bibtex doc-base"] 0 "doc-base.aux" "doc-base.bbl" "doc-base" 0 -1
   "./bibliografia.bib" 1686317765 13683 ac564103228d19a4fb8394b2fbd6d630 ""
   "c:/texlive/2023/texmf-dist/bibtex/bst/ieeetran/IEEEtran.bst" 1685561260 57748 7c8250ecf02814ce6ddc0cdbb63df1dd ""
-  "doc-base.aux" 1687041536 4847 4885259344546ccf5fbf59dc35fd12c5 "pdflatex"
+  "doc-base.aux" 1687294280 4857 c805b431fde85739462605501ca6494f "pdflatex"
   (generated)
   "doc-base.bbl"
   "doc-base.blg"
   (rewritten before read)
-["pdflatex"] 1687041534 "c:/Users/marco/sistdist/papers/2023_Testes-Microserviços-Ponta-a-Ponta/doc-base.tex" "doc-base.pdf" "doc-base" 1687041537 2
+["pdflatex"] 1687294279 "c:/Users/marco/sistdist/papers/2023_Testes-Microserviços-Ponta-a-Ponta/doc-base.tex" "doc-base.pdf" "doc-base" 1687294281 2
   "IEEEtran.cls" 1686317765 281957 5b2e4fa15b0f7eabb840ebf67df4c0f7 ""
   "c:/Users/marco/sistdist/papers/2023_Testes-Microserviços-Ponta-a-Ponta/doc-base.tex" 1687041497 15306 ff54dabd9478a1d8c2fa4a55d521d5b1 ""
   "c:/texlive/2023/texmf-dist/fonts/enc/dvips/base/8r.enc" 1685559618 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
@@ -245,13 +245,13 @@
   "c:/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1685567065 4683009 81ac55e6554f9124653631026fb1fc4e ""
   "c:/texlive/2023/texmf-var/web2c/pdftex/pdflatex.fmt" 1685621983 7892171 6f81955ffbed5f7e65c22c808a3eb609 ""
   "c:/texlive/2023/texmf.cnf" 1685567047 713 e69b156964470283e0530f5060668171 ""
-  "doc-base.aux" 1687041536 4847 4885259344546ccf5fbf59dc35fd12c5 "pdflatex"
+  "doc-base.aux" 1687294280 4857 c805b431fde85739462605501ca6494f "pdflatex"
   "doc-base.bbl" 1686945196 4218 4a710d59f95a74cecdc7bae890a75e46 "bibtex doc-base"
-  "doc-base.out" 1687041536 2767 46b1fe5789ae27a59370bcbfb574e6a7 "pdflatex"
+  "doc-base.out" 1687294280 2792 546bf6c95cd3e5af5caa3736b683b616 "pdflatex"
   "doc-base.tex" 1687041497 15306 ff54dabd9478a1d8c2fa4a55d521d5b1 ""
   "img/eshop-architecture-2.png" 1686317765 126705 e61ad784dbd22578818a0d4872b58006 ""
   "img/trainticket-our.pdf" 1686317765 41113 a80517159585dbdd364d02d109766892 ""
-  "main-body.tex" 1687039864 61996 34f38635079a8458cbeae1202b134092 ""
+  "main-body.tex" 1687294273 62001 677e0e23768c80337727ae78b7d175d8 ""
   (generated)
   "doc-base.aux"
   "doc-base.log"

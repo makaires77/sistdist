@@ -80,7 +80,7 @@ services:
     image: locustio/locust
     volumes:
       - ./locustfile.py:/mnt/locust/locustfile.py
-    command: -f /mnt/locust/locustfile.py --host=http://localhost
+    command: -f /mnt/locust/locustfile.py --host=http://nginx
     ports:
       - 8089:8089
 

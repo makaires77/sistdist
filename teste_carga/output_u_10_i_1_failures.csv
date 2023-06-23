@@ -1,5 +1,0 @@
-Method,Name,Error,Occurrences
-GET,/2023/06/15/post2/,"ConnectionRefusedError(10061, '[WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente.')",3
-GET,/2023/06/17/post3/,"ConnectionRefusedError(10061, '[WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente.')",5
-GET,/,"ConnectionRefusedError(10061, '[WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente.')",6
-GET,/2023/06/17/post1/,"ConnectionRefusedError(10061, '[WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente.')",3

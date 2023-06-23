@@ -1,8 +1,8 @@
 chcp 65001
 
-$usersList = @(10, 100, 500)
+$usersList = @(10, 100, 400)
 $instancesList = @(1, 2, 3)
-$testDuration = "120s"
+$testDuration = "90s"
 $targetHost = "http://localhost:80"
 
 # Mudar o diretório de trabalho atual para a pasta 'teste_carga'

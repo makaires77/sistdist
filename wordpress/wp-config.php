@@ -46,14 +46,14 @@ define( 'DB_COLLATE', '');
  *
  * @since 2.6.0
  */
-define( 'AUTH_KEY',         '27229fc32bc2efe9ded3d36c642e5ffc4d86e8d6');
-define( 'SECURE_AUTH_KEY',  '98528575373adc9c3c87878b289a16a9c1d70331');
-define( 'LOGGED_IN_KEY',    'a941d1d460438a7c2d371aff49da46635a367894');
-define( 'NONCE_KEY',        'edfd74c429ca70d6e7932da422b1ad5cd59d109f');
-define( 'AUTH_SALT',        'd3b1cb7f32b62a7fce4fb757d945ba121b05eb18');
-define( 'SECURE_AUTH_SALT', '857263420c01d3ccb8ccfb6776c57a8c8ffc8d71');
-define( 'LOGGED_IN_SALT',   '008a123e8ce350dc66e6463b5c8121d95d4c087d');
-define( 'NONCE_SALT',       'be1bc074d6a93a1ca6d67555fb5a3ee7267f7e0b');
+define( 'AUTH_KEY',         '75ff320092947906d5fb9be66322b3a1e21ee73d');
+define( 'SECURE_AUTH_KEY',  '92d32e078b0d6761a1514a933f575cfb173314fe');
+define( 'LOGGED_IN_KEY',    'd2ca8d45b8061302f4dd59d549418071175b7e3b');
+define( 'NONCE_KEY',        '6faa5c40801f00299f8bf5165b343968c63264e2');
+define( 'AUTH_SALT',        'bb661d7e48b301ea8aa36f5e1077bdecc2a99ba6');
+define( 'SECURE_AUTH_SALT', '05e226ee0b1cb738d2e143065b68f44c076b2198');
+define( 'LOGGED_IN_SALT',   'b3874d55682618c3c15918642906ff185eb7bc34');
+define( 'NONCE_SALT',       'e4514258cd1e2f0fe963fcc81089763e6e76ae14');
 
 /**#@-*/
 

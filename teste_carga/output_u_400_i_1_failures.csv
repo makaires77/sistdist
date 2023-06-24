@@ -1,0 +1,9 @@
+Method,Name,Error,Occurrences
+GET,/2023/06/17/post1/,"ConnectionAbortedError(10053, 'Uma conexão estabelecida foi anulada pelo software no computador host', None, 10053, None)",1
+GET,/2023/06/17/post3/,"ConnectionAbortedError(10053, 'Uma conexão estabelecida foi anulada pelo software no computador host', None, 10053, None)",2
+GET,/,RemoteDisconnected('Remote end closed connection without response'),2
+GET,/2023/06/17/post1/,RemoteDisconnected('Remote end closed connection without response'),1
+GET,/2023/06/17/post3/,RemoteDisconnected('Remote end closed connection without response'),5
+GET,/,"ConnectionAbortedError(10053, 'Uma conexão estabelecida foi anulada pelo software no computador host', None, 10053, None)",2
+GET,/2023/06/15/post2/,"ConnectionAbortedError(10053, 'Uma conexão estabelecida foi anulada pelo software no computador host', None, 10053, None)",1
+GET,/2023/06/15/post2/,RemoteDisconnected('Remote end closed connection without response'),6

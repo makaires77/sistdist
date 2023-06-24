@@ -11,12 +11,16 @@ if ($os -like "*Windows*") {
     Write-Host " -       Modelo CPU: $($cpu.Name)"
     Write-Host " -       Velocidade: $($cpu.MaxClockSpeed) MHz"
     Write-Host " -     Qte. Nucleos: $($cpu.NumberOfCores)"
+    Write-Host " -     Qte. Threads: $($cpu.NumberOfLogicalProcessors)"
 
     # Consultar informações da GPU
     $gpu = Get-WmiObject -Class Win32_VideoController
+    $cudaCores = $gpu.NumberOfCudaCores
     $totalGPUMemoryGB = [Math]::Round($gpu.AdapterRAM / 1GB)
+
     Write-Host "GPU:"
     Write-Host " -       Modelo GPU: $($gpu.Name)"
+    Write-Host " -     Nucleos CUDA: $($cudaCores)"
     Write-Host " -    Memoria Video: $($totalGPUMemoryGB) GB"
 
     # Consultar informações de memória

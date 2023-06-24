@@ -6,7 +6,7 @@ docker-compose up -d
 ForEach ($u in $users) {
 
     # Execute a carga de trabalho do Locust
-    locust -f locustfile.py --headless -u $u -r 10 --run-time 120s --host=http://172.28.224.1:80 --csv="teste_balanceador/output_u_${u}"
+    locust -f locustfile.py --headless -u $u -r 10 --run-time 120s --host=http://172.28.224.1:8080 --csv="teste_balanceador/output_u_${u}"
 
 }
 

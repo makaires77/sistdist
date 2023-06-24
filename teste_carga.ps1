@@ -1,6 +1,6 @@
-$usersList = @(10, 100, 200)
+$usersList = @(100, 200, 400)
 $instancesList = @(1, 2, 3)
-$testDuration = "90s"
+$testDuration = "120s"
 $targetHost = "http://localhost:8080"
 
 # Mudar o diretório de trabalho atual para a pasta 'teste_carga'

@@ -1,6 +1,6 @@
 chcp 65001
 
-$usersList = @(10, 100, 400)
+$usersList = @(10, 100, 200)
 $instancesList = @(1, 2, 3)
 $testDuration = "90s"
 $targetHost = "http://localhost:80"

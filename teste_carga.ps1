@@ -1,5 +1,3 @@
-chcp 65001
-
 $usersList = @(10, 100, 200)
 $instancesList = @(1, 2, 3)
 $testDuration = "90s"
@@ -11,7 +9,8 @@ Set-Location -Path .\teste_carga
 foreach($u in $usersList) {
     foreach($i in $instancesList) {
         Write-Host "Scaling wordpress to $i instances and testing with $u users"
-        docker-compose up -d --scale wordpress1=$i --scale wordpress2=$i --scale wordpress3=$i
+        docker-compose down
+        docker-compose up -d --scale wordpress=$i
         Start-Sleep -s 30
 
         # Test each WordPress instance
@@ -34,7 +33,3 @@ foreach($u in $usersList) {
 
 # Reset o diretório de trabalho para o diretório original após a conclusão do teste
 Set-Location -Path ..
-
-# Este script escalona os serviços wordpress1, wordpress2 e wordpress3 com base no número de instâncias desejadas e orienta o Locust a enviar solicitações ao servidor Nginx, que, por sua vez, balanceia a carga entre as instâncias do WordPress.
-
-# Além disso, este script executa docker-compose down após cada execução do Locust para garantir que as instâncias do WordPress e do Nginx sejam desligadas antes da próxima execução. Se você quiser manter os serviços em execução entre os testes de carga, você pode remover essa linha.

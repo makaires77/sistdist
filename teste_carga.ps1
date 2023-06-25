@@ -1,4 +1,4 @@
-$usersList = @(50, 150, 250)
+$usersList = @(100, 200, 300)
 $instancesList = @(1, 2, 3)
 $testDuration = "90s"
 $targetHost = "http://localhost:8080"

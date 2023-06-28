@@ -1,7 +1,7 @@
-$usersList = @(100, 200, 300)
+$usersList     = @(100, 200, 300)
 $instancesList = @(1, 2, 3)
-$testDuration = "90s"
-$targetHost = "http://localhost:8080"
+$testDuration  = "90s"
+$targetHost    = "http://localhost:8080"
 
 # Mudar o diretório de trabalho atual para a pasta 'teste_carga'
 Set-Location -Path .\teste_carga

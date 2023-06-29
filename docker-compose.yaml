@@ -1,51 +1,6 @@
 version: '3'
 
 services:
-  wordpress1:
-    image: wordpress
-    restart: always
-    depends_on:
-      - mysql
-    environment:
-      WORDPRESS_DB_HOST: mysql
-      WORDPRESS_DB_USER: root
-      WORDPRESS_DB_PASSWORD: r00t
-      WORDPRESS_DB_NAME: wordpress
-    volumes:
-      - ./wordpress:/var/www/html
-    ports:
-      - "8001:80"
-
-  wordpress2:
-    image: wordpress
-    restart: always
-    depends_on:
-      - mysql
-    environment:
-      WORDPRESS_DB_HOST: mysql
-      WORDPRESS_DB_USER: root
-      WORDPRESS_DB_PASSWORD: r00t
-      WORDPRESS_DB_NAME: wordpress
-    volumes:
-      - ./wordpress:/var/www/html
-    ports:
-      - "8002:80"
-
-  wordpress3:
-    image: wordpress
-    restart: always
-    depends_on:
-      - mysql
-    environment:
-      WORDPRESS_DB_HOST: mysql
-      WORDPRESS_DB_USER: root
-      WORDPRESS_DB_PASSWORD: r00t
-      WORDPRESS_DB_NAME: wordpress
-    volumes:
-      - ./wordpress:/var/www/html
-    ports:
-      - "8003:80"
-
   nginx:
     image: nginx
     volumes:
@@ -60,3 +15,42 @@ services:
       MYSQL_DATABASE: wordpress
     volumes:
       - ./mysql-data:/var/lib/mysql
+
+  wordpress1:
+    image: wordpress
+    restart: always
+    depends_on:
+      - mysql
+    environment:
+      WORDPRESS_DB_HOST: mysql
+      WORDPRESS_DB_USER: root
+      WORDPRESS_DB_PASSWORD: r00t
+      WORDPRESS_DB_NAME: wordpress
+    volumes:
+      - ./wordpress1:/var/www/html
+
+  wordpress2:
+    image: wordpress
+    restart: always
+    depends_on:
+      - mysql
+    environment:
+      WORDPRESS_DB_HOST: mysql
+      WORDPRESS_DB_USER: root
+      WORDPRESS_DB_PASSWORD: r00t
+      WORDPRESS_DB_NAME: wordpress
+    volumes:
+      - ./wordpress2:/var/www/html
+
+  wordpress3:
+    image: wordpress
+    restart: always
+    depends_on:
+      - mysql
+    environment:
+      WORDPRESS_DB_HOST: mysql
+      WORDPRESS_DB_USER: root
+      WORDPRESS_DB_PASSWORD: r00t
+      WORDPRESS_DB_NAME: wordpress
+    volumes:
+      - ./wordpress3:/var/www/html

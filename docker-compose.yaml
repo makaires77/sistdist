@@ -36,8 +36,6 @@ services:
       WORDPRESS_DB_NAME: wordpress
     volumes:
       - ./wordpress1:/var/www/html
-    ports:
-      - "8081:80"
 
   wordpress2:
     image: wordpress
@@ -51,8 +49,6 @@ services:
       WORDPRESS_DB_NAME: wordpress
     volumes:
       - ./wordpress2:/var/www/html
-    ports:
-      - "8082:80"
 
   wordpress3:
     image: wordpress
@@ -66,5 +62,3 @@ services:
       WORDPRESS_DB_NAME: wordpress
     volumes:
       - ./wordpress3:/var/www/html
-    ports:
-      - "8083:80"

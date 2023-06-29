@@ -8,6 +8,8 @@ services:
       MYSQL_DATABASE: wordpress
     volumes:
       - ./mysql-data:/var/lib/mysql
+    networks:
+      - backend
 
   wordpress1:
     image: wordpress
@@ -20,6 +22,8 @@ services:
       WORDPRESS_DB_NAME: wordpress
     volumes:
       - ./wordpress:/var/www/html
+    networks:
+      - backend
 
   wordpress2:
     image: wordpress
@@ -32,6 +36,8 @@ services:
       WORDPRESS_DB_NAME: wordpress
     volumes:
       - ./wordpress:/var/www/html
+    networks:
+      - backend
 
   wordpress3:
     image: wordpress
@@ -44,7 +50,9 @@ services:
       WORDPRESS_DB_NAME: wordpress
     volumes:
       - ./wordpress:/var/www/html
-      
+    networks:
+      - backend
+
   nginx:
     image: nginx:1.19.0
     ports:
@@ -55,3 +63,10 @@ services:
       - wordpress1
       - wordpress2
       - wordpress3
+    networks:
+      - frontend
+      - backend
+
+networks:
+  frontend:
+  backend:

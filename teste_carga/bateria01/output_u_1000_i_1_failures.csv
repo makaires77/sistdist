@@ -1,0 +1,5 @@
+Method,Name,Error,Occurrences
+GET,/2023/06/15/post2/,"ConnectionRefusedError(10061, '[WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente.')",378
+GET,/2023/06/17/post3/,"ConnectionRefusedError(10061, '[WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente.')",420
+GET,/,"ConnectionRefusedError(10061, '[WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente.')",381
+GET,/2023/06/17/post1/,"ConnectionRefusedError(10061, '[WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente.')",355

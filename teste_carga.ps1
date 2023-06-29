@@ -1,17 +1,18 @@
-$usersList = @(100, 500, 1000)
+$usersList = @(100, 200, 300)
 $instancesList = @(1, 2, 3)
 $testDuration = "90s"
 $targetHost = "http://localhost:8080"
 
-# Mudar o diretório de trabalho atual para a pasta onde serão gerados dados de medição do teste
-Set-Location -Path C:\Users\marco\sistdist\teste_carga\bateria02
+# Mudar o diretório de trabalho atual para a pasta 'teste_carga'
+Set-Location -Path .\teste_carga
 
 foreach($u in $usersList) {
     foreach($i in $instancesList) {
         Write-Host "Scaling wordpress to $i instances and testing with $u users"
         docker-compose down
+        # docker-compose up -d --scale wordpress=$i
         docker-compose up -d
-        Start-Sleep -s 15
+        Start-Sleep -s 5
 
         # Test each WordPress instance
         foreach($j in 1..$i) {
@@ -34,3 +35,4 @@ foreach($u in $usersList) {
 
 # Reset o diretório de trabalho para o diretório original após a conclusão do teste
 Set-Location -Path ..
+

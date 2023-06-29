@@ -28,6 +28,9 @@ services:
       WORDPRESS_DB_NAME: wordpress
     volumes:
       - ./wordpress1:/var/www/html
+    command: >
+      bash -c "chown -R www-data:www-data /var/www/html &&
+      docker-entrypoint.sh apache2-foreground"
 
   wordpress2:
     image: wordpress
@@ -41,6 +44,9 @@ services:
       WORDPRESS_DB_NAME: wordpress
     volumes:
       - ./wordpress2:/var/www/html
+    command: >
+      bash -c "chown -R www-data:www-data /var/www/html &&
+      docker-entrypoint.sh apache2-foreground"
 
   wordpress3:
     image: wordpress
@@ -54,3 +60,6 @@ services:
       WORDPRESS_DB_NAME: wordpress
     volumes:
       - ./wordpress3:/var/www/html
+    command: >
+      bash -c "chown -R www-data:www-data /var/www/html &&
+      docker-entrypoint.sh apache2-foreground"

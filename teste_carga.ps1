@@ -1,10 +1,10 @@
 $usersList = @(100, 500, 1000)
 $instancesList = @(1, 2, 3)
 $testDuration = "90s"
-$targetHost = "http://localhost:80"
+$targetHost = "http://localhost:8080"
 
 # Mudar o diretório de trabalho atual para a pasta onde serão gerados dados de medição do teste
-Set-Location -Path C:\Users\marco\sistdist\teste_carga\bateria01
+Set-Location -Path C:\Users\marco\sistdist\teste_carga\bateria02
 
 foreach($u in $usersList) {
     foreach($i in $instancesList) {
@@ -15,7 +15,7 @@ foreach($u in $usersList) {
 
         # Test each WordPress instance
         foreach($j in 1..$i) {
-            $wp_url = "http://localhost:80"
+            $wp_url = "http://localhost:8080"
             try {
                 Invoke-WebRequest -Uri $wp_url -TimeoutSec 5 | Out-Null
                 Write-Host "Connectivity test passed for $wp_url"

@@ -1,8 +1,12 @@
 from locust import HttpUser, TaskSet, task, between
 
 class UserBehavior(TaskSet):
-    host = "http://nginx"    # O endereço do servidor Nginx a ser testado
-    wait_time = between(5, 15)      # O tempo de espera entre as tarefas para cada usuário virtual é um valor aleatório entre 5 e 15 segundos
+    # Endereço do servidor Nginx a ser testado
+    host = "http://nginx"
+    
+    # Valor aleatório em segundos para o tempo de espera entre as tarefas para cada usuário virtual
+    # wait_time = between(5, 15)
+    wait_time = between(2, 5)
     
     @task
     def index(self):

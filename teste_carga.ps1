@@ -1,6 +1,10 @@
+<<<<<<< HEAD
 chcp 65001
 
 $usersList = @(100, 500, 1000)
+=======
+$usersList = @(100, 200, 300)
+>>>>>>> 596673bfbc553639dd31b5b68093e0bbb29374b9
 $instancesList = @(1, 2, 3)
 $testDuration = "90s"
 $targetHost = "http://localhost:8080"
@@ -11,9 +15,16 @@ Set-Location -Path .\teste_carga
 foreach($u in $usersList) {
     foreach($i in $instancesList) {
         Write-Host "Scaling wordpress to $i instances and testing with $u users"
+<<<<<<< HEAD
         # docker-compose up -d --scale wordpress1=$i --scale wordpress2=$i --scale wordpress3=$i
         docker-compose up -d
         Start-Sleep -s 30
+=======
+        docker-compose down
+        # docker-compose up -d --scale wordpress=$i
+        docker-compose up -d
+        Start-Sleep -s 5
+>>>>>>> 596673bfbc553639dd31b5b68093e0bbb29374b9
 
         # Test each WordPress instance
         foreach($j in 1..$i) {
@@ -24,11 +35,12 @@ foreach($u in $usersList) {
             }
             catch {
                 Write-Host "Connectivity test failed for $wp_url"
+                return
             }
         }
 
         Write-Host "Running locust for $testDuration with $u users"
-        locust -f locustfile.py --headless -u $u -r 10 --run-time $testDuration --host=$targetHost --csv=output_u_${u}_i_${i}
+        locust -f locustfile.py --headless -u $u -r 5 --run-time $testDuration --host=$targetHost --csv=output_u_${u}_i_${i}
         docker-compose down
     }
 }
@@ -36,6 +48,3 @@ foreach($u in $usersList) {
 # Reset o diretório de trabalho para o diretório original após a conclusão do teste
 Set-Location -Path ..
 
-# Este script escalona os serviços wordpress1, wordpress2 e wordpress3 com base no número de instâncias desejadas e orienta o Locust a enviar solicitações ao servidor Nginx, que, por sua vez, balanceia a carga entre as instâncias do WordPress.
-
-# Além disso, este script executa docker-compose down após cada execução do Locust para garantir que as instâncias do WordPress e do Nginx sejam desligadas antes da próxima execução. Se você quiser manter os serviços em execução entre os testes de carga, você pode remover essa linha.

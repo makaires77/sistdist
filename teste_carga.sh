@@ -1,6 +1,6 @@
 #!/bin/bash
 
-usersList=(1200 1600 1800)
+usersList=(1100 1200 1300)
 instancesList=(1 2 3)
 testDuration="250s"
 targetHost="http://localhost:8080"
